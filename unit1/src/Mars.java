@@ -44,6 +44,12 @@ public class Mars {
 
         // 4. Looping Functions
         landing = landingCheck(6);
+
+        // Guessing Game
+        new GuessingGame();
+
+        // Mars Expedition
+        new MarsExpedition();
     }
 }
 
