@@ -1,7 +1,3 @@
-import java.lang.Math;
-import java.util.HashMap;
-import java.util.Map;
-
 public class Mars {
     public static boolean landingCheck(int minutesLeft) throws InterruptedException {
         for(int minute = 0; minute < minutesLeft; minute++){
@@ -50,6 +46,9 @@ public class Mars {
 
         // Mars Expedition
         new MarsExpedition();
+
+        // Findings
+        new FindingsList();
     }
 }
 

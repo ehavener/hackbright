@@ -14,13 +14,13 @@ public class MarsExpedition {
         System.out.println("    #####################");
         System.out.println("     ###################");
 
-        System.out.println("Enter your name:");
+        System.out.println("\n Enter your name:");
         Scanner scanner = new Scanner(System.in);
         String name = scanner.nextLine();
 
         System.out.println("Hi, " + name + " — Welcome to the Expedition prep program. Are you ready to head out into the new world? Type Y or N");
         String ready = scanner.nextLine();
-        if (ready.equals("Y")) {
+        if (ready.equalsIgnoreCase("Y")) {
             System.out.println("I knew you would say that. You are team leader for a reason.");
         } else {
             System.out.println("Too bad you are team leader. You have to go.");

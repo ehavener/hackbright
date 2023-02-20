@@ -4,10 +4,6 @@ import java.util.Random;
 
 public class GuessingGame {
     public GuessingGame() {
-
-    }
-
-    public static void main(String[] args){
         System.out.println("Welcome to Guessing Game!");
         System.out.println("Enter your name:");
         Scanner scanner = new Scanner(System.in);
@@ -34,7 +30,7 @@ public class GuessingGame {
             }
 
             if (guess == number) {
-                System.out.println("You guessed correctly!");
+                System.out.println("You guessed correctly! \n");
                 break;
             } else if (guess < number) {
                 System.out.println("Too low.");
