@@ -12,7 +12,7 @@ public class Whiteboarding {
     public static ArrayList<Integer> bubbleSort(ArrayList<Integer> inputList) {
         for (int i = 0; i < inputList.size(); i++) {
             for (int j = 0; j < i + 1; j++) {
-                if (inputList.get(i) > inputList.get(j)) {
+                if (inputList.get(i) < inputList.get(j)) {
                     swap(inputList, i, j);
                 }
             }
@@ -21,9 +21,14 @@ public class Whiteboarding {
     }
 
     public static boolean doesSubstringExist(String string, String subString) {
-        boolean found = false;
-
-        return found;
+        for (int i = 0; i < string.length() - subString.length(); i++) {
+            if (string.charAt(i) == subString.charAt(0)) {
+                if (string.substring(i, i + subString.length()).equals(subString)) {
+                    return true;
+                }
+            }
+        }
+        return false;
     }
 
     public static ArrayList<Character> caesarCipher(ArrayList<Character> inputList, int shiftAmount) {
