@@ -4,19 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="649cb1c5-7c35-4f83-878d-7a7a223935ba" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../java-proj-3-old/.idea/java-proj-3-old.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java-proj-3-old/starter/springmvc.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starter/src/main/java/com/javaunit3/springmvc/BatmanMovie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starter/src/main/java/com/javaunit3/springmvc/BestMovieService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starter/src/main/java/com/javaunit3/springmvc/Movie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starter/src/main/java/com/javaunit3/springmvc/MovieApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starter/src/main/java/com/javaunit3/springmvc/MovieController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starter/src/main/java/com/javaunit3/springmvc/SpringmvcApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starter/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/springmvc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/starter/springmvc.iml" afterDir="false" />
+    <list default="true" id="649cb1c5-7c35-4f83-878d-7a7a223935ba" name="Changes" comment="initial commit for unit 3">
+      <change afterPath="$PROJECT_DIR$/starter/src/main/resources/templates/bestMovie.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starter/src/main/resources/templates/voteForBestMovie.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/src/main/java/com/javaunit3/springmvc/BatmanMovie.java" beforeDir="false" afterPath="$PROJECT_DIR$/starter/src/main/java/com/javaunit3/springmvc/BatmanMovie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/src/main/java/com/javaunit3/springmvc/BestMovieService.java" beforeDir="false" afterPath="$PROJECT_DIR$/starter/src/main/java/com/javaunit3/springmvc/BestMovieService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/src/main/java/com/javaunit3/springmvc/MovieController.java" beforeDir="false" afterPath="$PROJECT_DIR$/starter/src/main/java/com/javaunit3/springmvc/MovieController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/src/main/java/com/javaunit3/springmvc/SpringmvcApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/starter/src/main/java/com/javaunit3/springmvc/SpringmvcApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/starter/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/target/classes/com/javaunit3/springmvc/BatmanMovie.class" beforeDir="false" afterPath="$PROJECT_DIR$/starter/target/classes/com/javaunit3/springmvc/BatmanMovie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/target/classes/com/javaunit3/springmvc/BestMovieService.class" beforeDir="false" afterPath="$PROJECT_DIR$/starter/target/classes/com/javaunit3/springmvc/BestMovieService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/target/classes/com/javaunit3/springmvc/MovieController.class" beforeDir="false" afterPath="$PROJECT_DIR$/starter/target/classes/com/javaunit3/springmvc/MovieController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/starter/target/classes/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +28,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -51,6 +52,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -74,11 +76,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677895318432</updated>
-      <workItem from="1677895319738" duration="3586000" />
+      <workItem from="1677895319738" duration="5842000" />
     </task>
+    <task id="LOCAL-00001" summary="initial commit for unit 3">
+      <created>1677899267532</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1677899267532</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit for unit 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit for unit 3" />
   </component>
 </project>
