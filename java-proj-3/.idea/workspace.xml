@@ -4,18 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="649cb1c5-7c35-4f83-878d-7a7a223935ba" name="Changes" comment="complete unit 3 part 2: websites">
-      <change afterPath="$PROJECT_DIR$/starter/src/main/java/com/javaunit3/springmvc/HibernateConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starter/src/main/java/com/javaunit3/springmvc/model/MovieEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starter/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starter/src/main/resources/templates/addMovie.html" afterDir="false" />
+    <list default="true" id="649cb1c5-7c35-4f83-878d-7a7a223935ba" name="Changes" comment="complete unit 3 part 3: hibernate">
+      <change afterPath="$PROJECT_DIR$/starter/src/main/java/com/javaunit3/springmvc/model/VoteEntity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/springmvc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/starter/springmvc.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/src/main/java/com/javaunit3/springmvc/MovieApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/starter/src/main/java/com/javaunit3/springmvc/MovieApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/src/main/java/com/javaunit3/springmvc/HibernateConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/starter/src/main/java/com/javaunit3/springmvc/HibernateConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/starter/src/main/java/com/javaunit3/springmvc/MovieController.java" beforeDir="false" afterPath="$PROJECT_DIR$/starter/src/main/java/com/javaunit3/springmvc/MovieController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/starter/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/src/main/java/com/javaunit3/springmvc/model/MovieEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/starter/src/main/java/com/javaunit3/springmvc/model/MovieEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/src/main/resources/templates/bestMovie.html" beforeDir="false" afterPath="$PROJECT_DIR$/starter/src/main/resources/templates/bestMovie.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/src/main/resources/templates/voteForBestMovie.html" beforeDir="false" afterPath="$PROJECT_DIR$/starter/src/main/resources/templates/voteForBestMovie.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/target/classes/com/javaunit3/springmvc/HibernateConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/starter/target/classes/com/javaunit3/springmvc/HibernateConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/starter/target/classes/com/javaunit3/springmvc/MovieController.class" beforeDir="false" afterPath="$PROJECT_DIR$/starter/target/classes/com/javaunit3/springmvc/MovieController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unit3/Whiteboarding.java" beforeDir="false" afterPath="$PROJECT_DIR$/../unit3/Whiteboarding.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/target/classes/com/javaunit3/springmvc/model/MovieEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/starter/target/classes/com/javaunit3/springmvc/model/MovieEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/target/classes/templates/voteForBestMovie.html" beforeDir="false" afterPath="$PROJECT_DIR$/starter/target/classes/templates/voteForBestMovie.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +26,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -82,7 +82,7 @@
       <workItem from="1678396145811" duration="2967000" />
       <workItem from="1678552464838" duration="2693000" />
       <workItem from="1678734488096" duration="401000" />
-      <workItem from="1678734922015" duration="2491000" />
+      <workItem from="1678734922015" duration="6333000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit for unit 3">
       <created>1677899267532</created>
@@ -98,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677901544291</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="complete unit 3 part 3: hibernate">
+      <created>1678737736757</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678737736757</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,6 +114,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit for unit 3" />
     <MESSAGE value="complete unit 3 part 2: websites" />
-    <option name="LAST_COMMIT_MESSAGE" value="complete unit 3 part 2: websites" />
+    <MESSAGE value="complete unit 3 part 3: hibernate" />
+    <option name="LAST_COMMIT_MESSAGE" value="complete unit 3 part 3: hibernate" />
   </component>
 </project>
