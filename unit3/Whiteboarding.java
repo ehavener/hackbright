@@ -2,12 +2,29 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 public class Whiteboarding {
-    public static void main(String[] args) {
-        System.out.println("Hello!");
 
-        ArrayList<Integer> arrayList = new ArrayList<>(2,7,11,15);
-        int target = 9;
-        twoSumIndicies(arrayList, target);
+    public static void main(String[] args) {
+        // System.out.println("Hello!");
+
+        // ArrayList<Integer> arrayList = new ArrayList<>(2,7,11,15);
+        // int target = 9;
+        // // twoSumIndicies(arrayList, target);
+    }
+
+    // 3-7-23
+    // n   = 0 1  2  3    4      5 
+    // seq = 1 11 21 1211 111221 312211
+    public int seeAndSay(int n) {
+        ArrayList<Integer> sequences = new ArrayList<>();
+        for (int i = 0; i <= n; i++) {
+            if (i == 0) {
+                sequences.add(1);
+            } else if (i > 0) {
+                // map previous sequence to next sequence
+                // e.g. map 1 to 11, 11 to 21, 21 to 1211
+            }
+        }
+        return 0;
     }
 
     /*
@@ -37,10 +54,12 @@ public class Whiteboarding {
         
         Follow-up: Can you come up with an algorithm that is less than O(n2) time complexity?
      */
-    public void twoSumIndicies(ArrayList arrayList, Int target) {
-        for (int i = 0; i < arrayList.length(); i++) {
+    // public void twoSumIndicies(ArrayList arrayList, Int target) {
+    //     // for (int i = 0; i < arrayList.length(); i++) {
             
-        }
-    }
+    //     // }
+    // }
+
+    
 }
 
