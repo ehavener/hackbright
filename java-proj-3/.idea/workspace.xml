@@ -4,18 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="649cb1c5-7c35-4f83-878d-7a7a223935ba" name="Changes" comment="complete unit 3 part 3: hibernate">
-      <change afterPath="$PROJECT_DIR$/starter/src/main/java/com/javaunit3/springmvc/model/VoteEntity.java" afterDir="false" />
+    <list default="true" id="649cb1c5-7c35-4f83-878d-7a7a223935ba" name="Changes" comment="complete unit 3 part 4: movie voting">
+      <change afterPath="$PROJECT_DIR$/../java-proj-4/starter/src/main/java/com/devmountain/noteApp/configuration/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-proj-4/starter/src/main/java/com/devmountain/noteApp/entities/Note.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-proj-4/starter/src/main/java/com/devmountain/noteApp/entities/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-proj-4/starter/src/main/java/com/devmountain/noteApp/entities/dtos/NoteDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-proj-4/starter/src/main/java/com/devmountain/noteApp/entities/dtos/UserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-proj-4/starter/src/main/java/com/devmountain/noteApp/repositories/NoteRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-proj-4/starter/src/main/java/com/devmountain/noteApp/repositories/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-proj-4/starter/src/main/java/com/devmountain/noteApp/services/NoteServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-proj-4/starter/src/main/java/com/devmountain/noteApp/services/UserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/src/main/java/com/javaunit3/springmvc/HibernateConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/starter/src/main/java/com/javaunit3/springmvc/HibernateConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/src/main/java/com/javaunit3/springmvc/MovieController.java" beforeDir="false" afterPath="$PROJECT_DIR$/starter/src/main/java/com/javaunit3/springmvc/MovieController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/src/main/java/com/javaunit3/springmvc/model/MovieEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/starter/src/main/java/com/javaunit3/springmvc/model/MovieEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/src/main/resources/templates/bestMovie.html" beforeDir="false" afterPath="$PROJECT_DIR$/starter/src/main/resources/templates/bestMovie.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/src/main/resources/templates/voteForBestMovie.html" beforeDir="false" afterPath="$PROJECT_DIR$/starter/src/main/resources/templates/voteForBestMovie.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/target/classes/com/javaunit3/springmvc/HibernateConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/starter/target/classes/com/javaunit3/springmvc/HibernateConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/target/classes/com/javaunit3/springmvc/MovieController.class" beforeDir="false" afterPath="$PROJECT_DIR$/starter/target/classes/com/javaunit3/springmvc/MovieController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/target/classes/com/javaunit3/springmvc/model/MovieEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/starter/target/classes/com/javaunit3/springmvc/model/MovieEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/target/classes/templates/voteForBestMovie.html" beforeDir="false" afterPath="$PROJECT_DIR$/starter/target/classes/templates/voteForBestMovie.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/target/classes/templates/bestMovie.html" beforeDir="false" afterPath="$PROJECT_DIR$/starter/target/classes/templates/bestMovie.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,25 +49,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;0861095ca1565183975151c5b2a14071&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/emerson/java-tutorials/java-proj-3",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "spring.configuration.checksum": "0861095ca1565183975151c5b2a14071",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -82,7 +83,10 @@
       <workItem from="1678396145811" duration="2967000" />
       <workItem from="1678552464838" duration="2693000" />
       <workItem from="1678734488096" duration="401000" />
-      <workItem from="1678734922015" duration="6333000" />
+      <workItem from="1678734922015" duration="6651000" />
+      <workItem from="1679023217016" duration="23000" />
+      <workItem from="1679023346830" duration="3000" />
+      <workItem from="1679162812154" duration="655000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit for unit 3">
       <created>1677899267532</created>
@@ -105,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678737736757</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="complete unit 3 part 4: movie voting">
+      <created>1678742851295</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678742851295</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,6 +126,7 @@
     <MESSAGE value="initial commit for unit 3" />
     <MESSAGE value="complete unit 3 part 2: websites" />
     <MESSAGE value="complete unit 3 part 3: hibernate" />
-    <option name="LAST_COMMIT_MESSAGE" value="complete unit 3 part 3: hibernate" />
+    <MESSAGE value="complete unit 3 part 4: movie voting" />
+    <option name="LAST_COMMIT_MESSAGE" value="complete unit 3 part 4: movie voting" />
   </component>
 </project>
