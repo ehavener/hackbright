@@ -11,7 +11,7 @@ const headers = {
     'Content-Type': 'application/json'
 }
 
-const baseUrl = 'http://localhost:8080/api/v1/notes';
+const baseUrl = 'http://localhost:8080/api/v1/notes/';
 
 function handleLogout() {
     let c = document.cookie.split(';');
@@ -30,7 +30,7 @@ const handleSubmit = async (e) => {
 }
 
 async function addNote(obj) {
-    const response = await fetch(`${baseUrl}/user/${userId}`, {
+    const response = await fetch(`${baseUrl}user/${userId}`, {
         method: 'POST',
         body: JSON.stringify(obj),
         headers: headers
@@ -41,7 +41,7 @@ async function addNote(obj) {
 }
 
 async function getNotes(userId) {
-    await fetch(`${baseUrl}/user/${userId}`, {
+    await fetch(`${baseUrl}user/${userId}`, {
         method: 'GET',
         headers: headers
     })
