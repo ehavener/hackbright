@@ -5,7 +5,7 @@ const submitForm = document.getElementById('note-form');
 const noteContainer = document.getElementById('note-container');
 
 let noteBody = document.getElementById('note-body');
-let updateNoteBth = document.getElementById('update-note-btn');
+let updateNoteBtn = document.getElementById('update-note-button');
 
 const headers = {
     'Content-Type': 'application/json'
@@ -108,14 +108,14 @@ const createNoteCards = (array) => {
 const populateModal = (obj) => {
     noteBody.innerText = ''
     noteBody.innerText = obj.body;
-    updateNoteBth.setAttribute('data-note-id', obj.id);
+    updateNoteBtn.setAttribute('data-note-id', obj.id);
 }
 
 getNotes(userId);
 
 submitForm.addEventListener('submit', handleSubmit);
 
-updateNoteBth.addEventListener('click', (e) => {
+updateNoteBtn.addEventListener('click', (e) => {
     let noteId = e.target.getAttribute('data-note-id');
     handleNoteEdit(noteId);
 })

@@ -19,6 +19,11 @@ public class NoteController {
         return noteService.getAllNotesByUserId(userId);
     }
 
+    @GetMapping("/{noteId}")
+    public Optional<NoteDto> getNoteById(@PathVariable Long noteId) {
+        return noteService.getNoteById(noteId);
+    }
+
     @PostMapping("/user/{userId}")
     public void addNote(@RequestBody NoteDto noteDto, @PathVariable Long userId) {
         noteService.addNote(noteDto, userId);
@@ -32,10 +37,5 @@ public class NoteController {
     @PutMapping
     public void updateNote(@RequestBody NoteDto noteDto) {
         noteService.updateNoteById(noteDto);
-    }
-
-    @GetMapping
-    public Optional<NoteDto> getNoteById(@PathVariable Long noteId) {
-        return noteService.getNoteById(noteId);
     }
 }
