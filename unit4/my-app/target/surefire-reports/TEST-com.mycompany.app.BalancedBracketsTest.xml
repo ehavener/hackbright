@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.mycompany.app.MissingNumberTest" time="0" tests="3" errors="1" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.mycompany.app.BalancedBracketsTest" time="0" tests="7" errors="0" skipped="0" failures="2">
   <properties>
     <property name="java.specification.version" value="19"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -57,11 +57,19 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="63.0"/>
   </properties>
-  <testcase name="testMissingNumber_NoneMissing" classname="com.mycompany.app.MissingNumberTest" time="0"/>
-  <testcase name="testMissingNumber_MissingMax" classname="com.mycompany.app.MissingNumberTest" time="0">
-    <error message="Index 9 out of bounds for length 9" type="java.lang.ArrayIndexOutOfBoundsException">java.lang.ArrayIndexOutOfBoundsException: Index 9 out of bounds for length 9
-	at com.mycompany.app.MissingNumberTest.testMissingNumber_MissingMax(MissingNumberTest.java:15)
-</error>
+  <testcase name="testBalancedBrackets_startWithClosedParens" classname="com.mycompany.app.BalancedBracketsTest" time="0"/>
+  <testcase name="testBalancedBrackets_emptyString" classname="com.mycompany.app.BalancedBracketsTest" time="0"/>
+  <testcase name="testBalancedBrackets_tooManyOpenParens" classname="com.mycompany.app.BalancedBracketsTest" time="0">
+    <failure type="java.lang.AssertionError">java.lang.AssertionError
+	at com.mycompany.app.BalancedBracketsTest.testBalancedBrackets_tooManyOpenParens(BalancedBracketsTest.java:27)
+</failure>
   </testcase>
-  <testcase name="testMissingNumber_MissingSeven" classname="com.mycompany.app.MissingNumberTest" time="0"/>
+  <testcase name="testBalancedBrackets_tooManyClosedParens" classname="com.mycompany.app.BalancedBracketsTest" time="0">
+    <failure type="java.lang.AssertionError">java.lang.AssertionError
+	at com.mycompany.app.BalancedBracketsTest.testBalancedBrackets_tooManyClosedParens(BalancedBracketsTest.java:32)
+</failure>
+  </testcase>
+  <testcase name="testBalancedBrackets_mismatchedBrackets" classname="com.mycompany.app.BalancedBracketsTest" time="0"/>
+  <testcase name="testBalancedBrackets_balancedComboBrackets" classname="com.mycompany.app.BalancedBracketsTest" time="0"/>
+  <testcase name="testBalancedBrackets_balancedParens" classname="com.mycompany.app.BalancedBracketsTest" time="0"/>
 </testsuite>

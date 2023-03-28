@@ -14,4 +14,14 @@ public class MissingNumberTest {
     public void testMissingNumber_MissingMax() {
         assertEquals(10, mn.missingNumber(missingMax, 10));
     }
+
+    @Test
+    public void testMissingNumber_NoneMissing() {
+        assertEquals(0, mn.missingNumber(missingNone, 10));
+    }
+
+    @Test
+    public void testMissingNumber_MissingSeven() {
+        assertEquals(7, mn.missingNumber(missingSeven, 10));
+    }
 }

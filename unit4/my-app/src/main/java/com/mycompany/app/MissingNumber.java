@@ -3,6 +3,8 @@ package com.mycompany.app;
 import java.util.Arrays;
 import java.util.Set;
 import java.util.stream.Collectors;
+import java.util.stream.IntStream;
+import java.util.stream.Stream;
 
 public class MissingNumber {
     public static int missingNumber(int[] numbers, int maxNum) {
@@ -16,13 +18,13 @@ public class MissingNumber {
     }
 
     public static int missingNumberOn(int[] numbers, int maxNum) {
-        // Set<Integer> set = (Set<Integer>) Arrays.stream(numbers).boxed().collect(Collectors.toSet());
+        Set<Object> set = Arrays.stream(numbers).boxed().collect(Collectors.toSet());
 
-        // for (int i = 1; i <= maxNum; i += 1) {
-        //     if (!set.contains(i)) {
-        //         return i;
-        //     }
-        // }
+        for (int i = 1; i <= maxNum; i += 1) {
+            if (!set.contains(i)) {
+                return i;
+            }
+        }
         return 0;
     }
 
