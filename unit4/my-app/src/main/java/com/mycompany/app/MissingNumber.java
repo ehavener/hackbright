@@ -9,12 +9,17 @@ import java.util.stream.Stream;
 public class MissingNumber {
     public static int missingNumber(int[] numbers, int maxNum) {
         Arrays.sort(numbers);
-        for (int i = 1; i <= maxNum; i++) {
-            if (i != numbers[i-1]) {
+        for (int i = 1; i < maxNum; i += 1) {
+            if (i != numbers[i - 1]) {
                 return i;
             }
         }
-        return 0;
+    
+        if (numbers.length == maxNum && numbers[maxNum - 1] == maxNum) {
+            return 0;
+        }
+    
+        return maxNum;
     }
 
     public static int missingNumberOn(int[] numbers, int maxNum) {
