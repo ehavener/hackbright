@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.LinkedList;
 import java.util.Set;
 import java.util.Stack;
 import java.util.stream.Collectors;
@@ -56,6 +57,15 @@ public class MissingNumber {
     }
 
     // Part 3: Data Structures and Algorithms Practice
+    public static int recursiveFind(String term, String[] list) {
+        if (list[0] == term) {
+            return 1;
+        } else if (list.length == 1) {
+            return -1;
+        } else {
+            return recursiveFind(term, Arrays.copyOfRange(list, 1, list.length - 1));
+        }
+    }
 
     public static void main(String[] args) {
         // Part 1: Runtime
@@ -78,8 +88,9 @@ public class MissingNumber {
         String input = "(()))";
         System.out.println(balancedParenthesis(input));
 
-
         // Part 3: Data Structures and Algorithms Practice
-        
+        String[] list = { "hey", "there", "you" };
+        String term = "porcupine";
+        System.out.println(recursiveFind(term, list));
     }
 }
