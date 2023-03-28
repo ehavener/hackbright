@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: MissingNumberTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.023 s <<< FAILURE! - in MissingNumberTest
+testMissingNumber_MissingMax(MissingNumberTest)  Time elapsed: 0.005 s  <<< ERROR!
+java.lang.ArrayIndexOutOfBoundsException: Index 9 out of bounds for length 9
+	at MissingNumberTest.testMissingNumber_MissingMax(MissingNumberTest.java:13)
+
