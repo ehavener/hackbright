@@ -13,22 +13,23 @@ public class BalancedBrackets {
         bracketPairs.put('>', '<');
         
         for (int i = 0; i < s.length(); i += 1) {
-            // If character is opening bracket
-            if (bracketPairs.containsValue(s.charAt(i))) {
-                stack.push(s.charAt(i));
+    
+          // If character is opening bracket
+          if (bracketPairs.containsValue(s.charAt(i))) {
+            stack.push(s.charAt(i));
+          }
+          // Else, if character is closing bracket
+          else if (bracketPairs.containsKey(s.charAt(i))) {
+            // Closing bracket without matching opening bracket
+            if (stack.isEmpty()) {
+              return false;
             }
-            // Else, if character is closing bracket
-            else if (bracketPairs.containsKey(s.charAt(i))) {
-                // Closing bracket without matching opening bracket
-                if (stack.isEmpty()) {
-                    return false;
-                }
-                // Check that most recent bracket on stack matches
-                Character mostRecentBracket = stack.pop();
-                if (!mostRecentBracket.equals(bracketPairs.get(s.charAt(i)))) {
-                    return false;
-                }
+            // Check that most recent bracket on stack matches
+            Character mostRecentBracket = stack.pop();
+            if (!mostRecentBracket.equals(bracketPairs.get(s.charAt(i)))) {
+              return false;
             }
+          }
         }
     
         return stack.isEmpty();

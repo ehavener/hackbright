@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.mycompany.app.MissingNumberPerformanceTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.256 s <<< FAILURE! - in com.mycompany.app.MissingNumberPerformanceTest
+testMissingNumber_Performance(com.mycompany.app.MissingNumberPerformanceTest)  Time elapsed: 0.106 s  <<< ERROR!
+java.lang.Exception: test timed out after 100 milliseconds
+	at com.mycompany.app.MissingNumberPerformanceTest.testMissingNumber_Performance(MissingNumberPerformanceTest.java:20)
+
+testMissingNumberSum_Performance(com.mycompany.app.MissingNumberPerformanceTest)  Time elapsed: 0.105 s  <<< ERROR!
+java.lang.Exception: test timed out after 100 milliseconds
+	at com.mycompany.app.MissingNumberPerformanceTest.testMissingNumberSum_Performance(MissingNumberPerformanceTest.java:36)
+

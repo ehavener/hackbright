@@ -1,5 +1,5 @@
-RecursiveFind.class
-BalancedBrackets.class
+com/mycompany/app/RecursiveFind.class
+com/mycompany/app/MissingNumber.class
+com/mycompany/app/BalancedBrackets.class
 com/mycompany/app/App.class
-MissingNumber.class
-Whiteboarding.class
+com/mycompany/app/Whiteboarding.class

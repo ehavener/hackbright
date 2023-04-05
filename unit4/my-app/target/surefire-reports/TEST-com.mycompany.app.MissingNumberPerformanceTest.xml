@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.mycompany.app.MissingNumberTest" time="0" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.mycompany.app.MissingNumberPerformanceTest" time="0.256" tests="3" errors="2" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="19"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -57,7 +57,15 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="63.0"/>
   </properties>
-  <testcase name="testMissingNumber_NoneMissing" classname="com.mycompany.app.MissingNumberTest" time="0"/>
-  <testcase name="testMissingNumber_MissingMax" classname="com.mycompany.app.MissingNumberTest" time="0"/>
-  <testcase name="testMissingNumber_MissingSeven" classname="com.mycompany.app.MissingNumberTest" time="0"/>
+  <testcase name="testMissingNumberSort_Performance" classname="com.mycompany.app.MissingNumberPerformanceTest" time="0.045"/>
+  <testcase name="testMissingNumber_Performance" classname="com.mycompany.app.MissingNumberPerformanceTest" time="0.106">
+    <error message="test timed out after 100 milliseconds" type="java.lang.Exception">java.lang.Exception: test timed out after 100 milliseconds
+	at com.mycompany.app.MissingNumberPerformanceTest.testMissingNumber_Performance(MissingNumberPerformanceTest.java:20)
+</error>
+  </testcase>
+  <testcase name="testMissingNumberSum_Performance" classname="com.mycompany.app.MissingNumberPerformanceTest" time="0.105">
+    <error message="test timed out after 100 milliseconds" type="java.lang.Exception">java.lang.Exception: test timed out after 100 milliseconds
+	at com.mycompany.app.MissingNumberPerformanceTest.testMissingNumberSum_Performance(MissingNumberPerformanceTest.java:36)
+</error>
+  </testcase>
 </testsuite>
